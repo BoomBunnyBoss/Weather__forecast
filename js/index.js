@@ -1,4 +1,4 @@
-fetch("http://api.weatherapi.com/v1/current.json?key=b677082ac19f45aca07212645220401&q=Kiev&aqi=no")
+fetch("https://api.weatherapi.com/v1/current.json?key=b677082ac19f45aca07212645220401&q=Kiev&aqi=no")
     .then(function (resp) { return resp.json()})
     .then(function (data) {
         console.log(data);
