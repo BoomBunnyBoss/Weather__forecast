@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-image: url(../img/1-3124.jpg);
+  background-repeat: no-repeat;
+}
+
+body .wrapper {
+  margin: auto 33%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+}
+
+body .wrapper .header {
+  margin-top: 35%;
+}
+
+body .wrapper .header .header__title {
+  padding-top: 6%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body .wrapper .content {
+  margin-top: 10%;
+  text-align: center;
+}
+
+body .wrapper .content div {
+  margin: 5%;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
